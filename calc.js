@@ -1,6 +1,6 @@
 
 // Which calculator
-var whichCalc = prompt("Would you like to use the: \n(a)dvanced[+ - * / power sq-root] \n(b)asic calculator[+ - * /]?");
+var whichCalc = prompt("Would you like to use the: \n(a)dvanced[+ - * / power sq-root] \n(b)asic calculator[+ - * /] \nB(M)I calculator?");
 
 if(whichCalc == "b" || whichCalc == "basic") {
   basic();
@@ -61,10 +61,11 @@ function advanced() {
 
 //BMI Calculator
 function bmi() {
-  var height = parseInt(prompt("Enter your height in inches"));
-  var weight = parseInt(prompt("Enter your weight in pounds"));
-
-  alert("Your BMI is " + (weight*0.45))
+  var measure = prompt("Would you like to use (m)etric or (i)mperial measurements?");
+  var heightImp = parseInt(prompt("Enter your height in inches"));
+  var weightImp = parseInt(prompt("Enter your weight in pounds"));
+  
+  alert("Your BMI is " + (703*weight)/(Math.pow(height, 2)));
 }
 
 
