@@ -1,5 +1,23 @@
 # sparta-js-calculator
 
+## Calculators
+
+### Basic  
+The initial calculator was a basic one to include addition, subtraction, multiplication and division. From the basic JavaScript learnt this wasn't too difficult to achieve.
+
+### Advanced  
+The advanced calculator required the addition of *power of* and *square root* functions. Following the basic calculator and researching the operators for these calculations made this reasonably achievable.
+
+### BMI  
+This proved more difficult finding a calculation that wasn't too long which I found with a *conversion factor* of 703. I then followed the *if/else if* already in-place to allow for metric and imperial.
+
+### Trip  
+I attempted the trip calculations but these proved difficult and even in research became confused with the conversion and equations I may or may not need to use.  
+This is something I would like to get working in a future sprint and as such have left the code commented out as it is a *work in progress*.
+
+----------
+
+## Brief
 **Timings**  
 45 - 90 minutes
 

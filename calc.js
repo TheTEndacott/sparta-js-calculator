@@ -76,7 +76,7 @@ function bmi() {
   }
 }
 
-//Trip calculator
+//Trip calculator (TBC!)
 // function trip() {
 //   var distance = parseInt(prompt("How many miles are you going?"));
 //   var mpg = parseInt(prompt("What is the miles per gallon of your vehicle?"));
@@ -86,12 +86,3 @@ function bmi() {
 //   // UK gallon to litre is 4.54
 //   alert("Your trip will take " + (distance/mph) " and will cost £" + (4.54*gallon/mpg*distance);
 // }
-
-
-
-
-
-
-
-
-
